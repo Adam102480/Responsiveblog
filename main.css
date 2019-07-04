@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 /* ==== A SIMPLE CSS RESET FROM ERIC MEYER ==== */
 
 html, body, div, span, applet, object, iframe,
@@ -89,4 +93,10 @@ h2 {
 
 .picture {
 	width: 100%;
+}
+
+/* ==== LAYOUT STYLES ==== */
+.main-header {
+	text-align: center;
+	padding: 1.25rem;
 }
